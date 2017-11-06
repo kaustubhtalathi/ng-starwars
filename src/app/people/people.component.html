@@ -1,0 +1,7 @@
+<p>{{peopleHeader}}</p>
+
+<section *ngIf="people != undefined">
+    <ul *ngFor="let p of people.results">
+        <li>{{p.name}}</li>
+    </ul>
+</section>

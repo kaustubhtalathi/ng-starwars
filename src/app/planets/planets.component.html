@@ -1,0 +1,6 @@
+<p>{{planetsHeader}}</p>
+<section *ngIf="planets != undefined">
+  <ul *ngFor="let p of planets.results">
+      <li>{{p.name}}</li>
+  </ul>
+</section>

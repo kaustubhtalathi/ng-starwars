@@ -1,0 +1,6 @@
+<p>{{starshipsHeader}}</p>
+<section *ngIf="starships != undefined">
+  <ul *ngFor="let s of starships.results">
+      <li>{{s.name}}</li>
+  </ul>
+</section>
